@@ -1,0 +1,426 @@
+<!--
+theme name:		CaPCoM.xml
+version:		0.1
+author:			DOCK-PI3 
+Creado por:		EmulOS Team
+INFO: .....................................
+-->
+
+<theme>
+    <formatVersion>4</formatVersion>
+
+	<view name="system">
+
+		<helpsystem name="help">
+			<pos>0.168 0.948</pos>
+			<textColor>ce181e</textColor>
+			<iconColor>ffffffd0</iconColor>
+			<fontPath>./_arte/SF_Hollywood_Hills.ttf</fontPath>
+			<fontSize>0.0458</fontSize>
+		</helpsystem>
+		
+	</view>
+	
+		<view name="basic, detailed, video">
+
+		<helpsystem name="help">
+			<pos>0.03 0.952</pos>
+			<textColor>ce181e</textColor>
+			<iconColor>ffffffd0</iconColor>
+			<fontPath>./_arte/SF_Hollywood_Hills.ttf</fontPath>
+			<fontSize>0.0458</fontSize>
+		</helpsystem>
+		
+	</view>
+
+	<feature supported="video">
+		<view name="video">
+
+			<video name="md_video">
+				<maxSize>0.446 0.442</maxSize>
+				<pos>0.501 0.52</pos>
+				<delay>0.1</delay>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+				<zIndex>2</zIndex>
+			</video>
+			<image name="md_marquee">
+				<origin>0 0</origin>
+				<pos>0.0316 0.153</pos>
+				<maxSize>0.18 0.115</maxSize>
+				<size>0.179 0.11</size>
+			</image>
+		</view>
+	</feature>
+
+	<view name="system">
+	
+		<image name="Overlay_System" extra="true">
+			<path>./_arte/FONDO_CAPCOM_2019.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+<!-- 			<color>ff6c00</color> -->
+		</image>
+			
+			<carousel name="systemcarousel">
+				<type>horizontal</type>
+				<pos>0 0</pos>
+				<size>1 1</size>
+				<origin>0 0</origin>
+				<color>FFFFFF00</color>
+				<logoScale>1.8</logoScale>
+				<logoSize>0.25 0.5</logoSize>
+				<maxLogoCount>3</maxLogoCount>
+				<zIndex>75</zIndex>
+			</carousel>
+			
+			<text name="systemInfo">
+				<pos>0.0255 0.841</pos>
+				<size>0.980 0.055</size>
+				<backgroundColor>FFFFFF00</backgroundColor>
+				<color>ecb731</color>
+				<fontPath>./_arte/SF_Hollywood_Hills.ttf</fontPath>
+				<fontSize>0.058</fontSize>
+				<alignment>center</alignment>
+				<zIndex>71</zIndex>
+			</text>
+	</view>
+
+    <view name="basic">
+
+		<image name="Overlay_Basic" extra="true">
+			<path>./_arte/FONDO_CAPCOM_2019_grid-simple.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+<!-- 			<color>00f0ff</color> -->
+		</image>
+		
+		<textlist name="gamelist">
+			<pos>0.169 0.25</pos>
+			<size>0.656 0.5</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.007</horizontalMargin>
+			<fontPath>./_arte/SF_Hollywood_Hills.ttf</fontPath>
+			<fontSize>0.058</fontSize>
+			<selectorColor>00000080</selectorColor>
+			<selectedColor>ecb731</selectedColor>
+			<primaryColor>f0f0f0</primaryColor>
+			<secondaryColor>c0c0c0</secondaryColor>
+			<forceUppercase>0</forceUppercase>
+			<lineSpacing>1.2</lineSpacing>
+			<!--<scrollSound>./_arte/flipper.wav</scrollSound>-->
+		</textlist>
+		
+		<image name="logo">
+			<pos>0.865 0.127</pos>
+			<maxSize>0.17 0.154</maxSize>
+			<size>0.168 0.150</size>
+		</image>
+
+	</view>
+
+	<view name="detailed, video">
+	
+		<image name="Overlay_Detailed" extra="true">
+			<path>./_arte/FONDO_CAPCOM_2019_gamelist.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+<!-- 			<color>00f0ff</color> -->
+		</image>
+		
+		<textlist name="gamelist">
+			<pos>0.001 0.267</pos>
+			<size>0.238 0.6</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<fontPath>./_arte/font.ttf</fontPath>
+			<fontSize>0.027</fontSize>
+			<selectorColor>00000080</selectorColor>
+			<selectedColor>ecb731</selectedColor>
+			<primaryColor>f0f0f0</primaryColor>
+			<secondaryColor>c0c0c0</secondaryColor>
+			<forceUppercase>0</forceUppercase>
+			<lineSpacing>1.1</lineSpacing>
+			<!--<scrollSound>./_arte/flipper.wav</scrollSound>-->
+		</textlist>
+		
+		<image name="logo">
+			<pos>0.4 0.065</pos>
+			<maxSize>0.2 0.16</maxSize>
+			<size>0.19 0.158</size>
+			<origin>0 0</origin>
+		</image>
+		
+		
+
+<!--=================  METADATA  ===============================================-->
+		<text name="md_description, md_lbl_description, md_playcount, md_lbl_playcount, md_lbl_releasedate, md_lbl_players, md_players, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_genre, md_genre, md_lbl_lastplayed, md_lastplayed, md_lbl_rating">
+			<color>f0f0f0</color>
+			<pos>1 1</pos>
+			<fontSize>0.027</fontSize>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_arte/font.ttf</fontPath>
+		</text>
+		
+<!--=================  PLAYERS  ===============================================-->		
+		<image name="Players_Icon" extra="true">
+			<path>./_arte/players.png</path>
+			<tile>false</tile>
+			<pos>0.841 0.549</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.046 0.045</maxSize>
+			<color>ffffff</color>
+		</image>
+		
+		<text name="md_players">
+			<color>f0f0f0</color>
+			<pos>0.875 0.545</pos>
+			<size>0.04 0.032</size>
+		</text>
+		
+<!--=================  RELEASE DATE  ===============================================-->		
+		<image name="ReleaseDate_Icon" extra="true">
+			<path>./_arte/released.png</path>
+			<tile>false</tile>
+			<pos>2 2</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.026 0.039</maxSize>
+			<color>ffffff</color>
+		</image>
+		
+		<datetime name="md_releasedate">
+			<color>f0f0f0</color>
+			<pos>2 2</pos>
+			<size>0.136 0.035</size>
+			<fontSize>0.027</fontSize>
+			<fontPath>./_arte/font.ttf</fontPath>
+		</datetime>
+		
+<!--=================  DEVELOPER  ===============================================-->		
+		<image name="Developer_Icon" extra="true">
+			<path>./_arte/developer.png</path>
+			<tile>false</tile>
+			<pos>2 2</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.026 0.039</maxSize>
+			<color>ffffff</color>
+		</image>
+		
+		<text name="md_developer">
+			<color>f0f0f0</color>
+			<pos>2 2</pos>
+			<size>0.247 0.041</size>
+		</text>
+		
+<!--=================  PUBLISHER  ===============================================-->		
+		<image name="Publisher_Icon" extra="true">
+			<path>./_arte/publisher.png</path>
+			<tile>false</tile>
+			<pos>2 2</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.026 0.039</maxSize>
+			<color>ffffff</color>
+		</image>
+		
+		<text name="md_publisher">
+			<color>f0f0f0</color>
+			<pos>2 2</pos>
+			<size>0.247 0.041</size>
+		</text>
+		
+<!--=================  GENRE  ===============================================-->		
+		<image name="Genre_Icon" extra="true">
+			<path>./_arte/genre.png</path>
+			<tile>false</tile>
+			<pos>2 2</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.026 0.039</maxSize>
+			<color>ffffff</color>
+		</image>
+		
+		<text name="md_genre">
+			<color>f0f0f0</color>
+			<pos>2 2</pos>
+			<size>0.247 0.041</size>
+		</text>
+		
+<!--=================  RATING  ===============================================-->		
+		<image name="Rating_Icon" extra="true">
+			<path>./_arte/rating.png</path>
+			<tile>false</tile>
+			<pos>0.831 0.602</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.026 0.039</maxSize>
+			<color>ffffff</color>
+		</image>
+		
+		<rating name="md_rating">
+			<pos>0.845 0.592</pos>
+			<size>0.685 0.037</size>
+			<filledPath>./_arte/heart_full.png</filledPath>
+			<unfilledPath>./_arte/heart_empty.png</unfilledPath>
+		</rating>
+		
+<!--=================  PLAY COUNT  ===============================================-->		
+		<image name="Play_Count_Icon" extra="true">
+			<path>./_arte/play_count.png</path>
+			<tile>false</tile>
+			<pos>2 2</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.026 0.039</maxSize>
+			<color>ffffff</color>
+		</image>
+		
+		<text name="md_playcount">
+			<color>ffffff</color>
+			<pos>2 2</pos>
+			<size>0.064 0.044</size>
+		</text>
+		
+<!--=================  LAST PLAYED  ===============================================-->		
+		<image name="Last_Played_Icon" extra="true">
+			<path>./_arte/last_played.png</path>
+			<tile>false</tile>
+			<pos>2 2</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.026 0.039</maxSize>
+			<color>ffffff</color>
+		</image>
+		
+		<datetime name="md_lastplayed">
+			<color>f0f0f0</color>
+			<pos>2 2</pos>
+			<size>0.138 0.040</size>
+		</datetime>
+		
+<!--=================  DESCRIPTION  ===============================================-->		
+		<text name="md_description">
+			<color>cfcfcf</color>
+			<pos>0.335 0.755</pos>
+			<size>0.35 0.109</size>
+			<lineSpacing>0.95</lineSpacing>
+		</text>		
+		
+<!--=================  BOX ART  ===============================================-->		
+		<image name="md_image">
+			<pos>0.879 0.232</pos>
+			<maxSize>0.22 0.215</maxSize>
+<!-- 			<size>0.24 0.24</size> -->
+			<origin>0.5 0.5</origin>
+		</image>
+
+</view>	
+		
+	<view name="grid">
+		<image name="background" extra="true">
+			<path>./_arte/FONDO_CAPCOM_2019_grid-simple.png</path>
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+
+		<helpsystem name="help">
+			<pos>0.03 0.935</pos>
+			<textColor>ecb731</textColor>
+			<iconColor>ffffffd0</iconColor>
+			<fontPath>./_arte/SF_Hollywood_Hills.ttf</fontPath>
+			<fontSize>0.0418</fontSize>
+		</helpsystem>
+		
+		<image name="logo">
+			<pos>0.79 0.15</pos>
+			<maxSize>0.2 0.16</maxSize>
+			<size>0.19 0.158</size>
+			<origin>0 0</origin>
+		</image>
+
+		<imagegrid name="gamegrid">
+			<pos>0.246 0.25</pos>
+			<size>0.56 0.56</size>
+			<margin>0.096 0.05</margin>
+		</imagegrid>
+
+		<gridtile name="default">
+			<size>0.2051 0.28</size>
+			<backgroundImage>./_arte/selector.png</backgroundImage>
+			<backgroundColor>00000000</backgroundColor>
+		</gridtile>
+
+		<gridtile name="selected">
+			<size>0.2257 0.3</size>
+			<backgroundColor>ffffff90</backgroundColor>
+		</gridtile>
+
+		<text name="md_title">
+			<color>ffffff</color>
+			<pos>0.02 0.179</pos>
+			<fontPath>./_arte/SF_Hollywood_Hills.ttf</fontPath>
+			<fontSize>0.05</fontSize>
+<!-- 			<zIndex>99</zIndex> -->
+		</text>
+				
+		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+			<color>ffffff</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_arte/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.01 0.01</size>
+			<pos>1 1</pos>
+			<pos>1 1</pos>
+		</text>
+		
+		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_releasedate">
+			<color>ffffff</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_arte/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.01 0.01</size>
+		</text>
+		
+		<text name="md_description">
+			<color>ffffff</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_arte/font.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<size>0.008 0.008</size>
+			<pos>1 1</pos>
+		</text>
+		
+		<text name="md_lbl_rating">
+			<color>ffffff</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_arte/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.01 0.01</size>
+			<pos>1 1</pos>
+		</text>
+		
+		<text name="md_lbl_releasedate">
+			<size>0.01 0.01</size>
+			<pos>1 1</pos>
+		</text>
+		
+		<datetime name="md_releasedate">
+			<size>0.01 0.01</size>
+			<pos>1 1</pos>
+		</datetime>
+		
+		<text name="md_lbl_players">
+			<size>0.01 0.01</size>
+			<pos>1 1</pos>
+		</text>
+		
+		<text name="md_players">
+			<size>0.01 0.01</size>
+			<pos>1 1</pos>
+		</text>
+				
+	</view>
+	</theme>

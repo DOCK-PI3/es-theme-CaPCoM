@@ -1,0 +1,40 @@
+<!--
+theme name:		CaPCoM.xml
+version:		0.1
+author:			DOCK-PI3 
+Creado por:		EmulOS Team
+INFO: .....................................
+-->
+<theme>
+	
+	<formatVersion>4</formatVersion>
+    <include>./../CaPCoM.xml</include>
+
+	<view name="system">	
+	</view>
+
+	<view name="basic">
+	</view>
+	
+	<view name="detailed">	
+	</view>
+
+	<view name="basic, detailed, system, video, grid">
+	
+		<image name="logo">
+			<path>./logo.png</path>
+<!-- 			<pos>0.802 0.01</pos>
+			<maxSize>0.18 0.196</maxSize>
+			<size>0.169 0.185</size>
+			<origin>0 0</origin> -->
+		</image>
+			<text name="md_title">
+			<color>ffffff</color>
+			<pos>0.02 0.179</pos>
+			<fontPath>./_arte/SF_Hollywood_Hills.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<zIndex>100</zIndex>
+		</text>
+	</view>
+	
+</theme>

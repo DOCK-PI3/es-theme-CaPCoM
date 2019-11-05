@@ -1,0 +1,34 @@
+<!--
+theme name:		CaPCoM.xml
+version:		0.1
+author:			DOCK-PI3 
+Creado por:		EmulOS Team
+INFO: .....................................
+-->
+<theme>
+	
+	<formatVersion>4</formatVersion>
+    <include>./../CaPCoM.xml</include>
+	
+	<view name="system">
+	
+<!-- 	<image name="console" extra="true">
+	<path>./console.png</path>
+	<origin>0 0</origin>
+	<color>FFFFFF</color>
+	<pos>0 0</pos>
+	<size>1 1</size>
+	<zIndex>70</zIndex>
+	</image> -->
+	
+	</view>
+	
+	<view name="basic, detailed, system, video, grid">
+	
+	<image name="logo">
+    <path>./logo.png</path>
+	</image>
+	
+	</view>
+	
+</theme>
