@@ -5,7 +5,7 @@ author:			DOCK-PI3
 Creado por:		EmulOS Team
 INFO: .....................................
 -->
-
+<?xml version="1.0" encoding="UTF-8"?>
 <theme>
     <formatVersion>4</formatVersion>
 
@@ -42,7 +42,7 @@ INFO: .....................................
 				<delay>0.1</delay>
 				<showSnapshotNoVideo>true</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
-				<zIndex>2</zIndex>
+				<zIndex>3</zIndex>
 			</video>
 			<image name="md_marquee">
 				<origin>0 0</origin>
@@ -132,6 +132,7 @@ INFO: .....................................
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
+			<zIndex>1</zIndex>
 <!-- 			<color>00f0ff</color> -->
 		</image>
 		
