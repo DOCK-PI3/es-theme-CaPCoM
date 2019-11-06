@@ -22,7 +22,7 @@ INFO: .....................................
 	<view name="basic, detailed, system, video, grid">
 	
 		<image name="logo">
-			<path>./system.png</path>
+			<path>./logo.png</path>
 <!-- 			<pos>0.802 0.01</pos>
 			<maxSize>0.18 0.196</maxSize>
 			<size>0.169 0.185</size>
