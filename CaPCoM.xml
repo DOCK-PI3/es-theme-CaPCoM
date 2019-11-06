@@ -46,7 +46,7 @@ INFO: .....................................
 			</video>
 			<image name="md_marquee">
 				<origin>0 0</origin>
-				<pos>0.0316 0.153</pos>
+				<pos>0.0312 0.153</pos>
 				<maxSize>0.18 0.115</maxSize>
 				<size>0.179 0.11</size>
 			</image>
@@ -77,12 +77,12 @@ INFO: .....................................
 			</carousel>
 			
 			<text name="systemInfo">
-				<pos>0.0255 0.841</pos>
+				<pos>0.05 0.839</pos>
 				<size>0.980 0.055</size>
 				<backgroundColor>FFFFFF00</backgroundColor>
 				<color>ecb731</color>
 				<fontPath>./_arte/SF_Hollywood_Hills.ttf</fontPath>
-				<fontSize>0.058</fontSize>
+				<fontSize>0.061</fontSize>
 				<alignment>center</alignment>
 				<zIndex>71</zIndex>
 			</text>
@@ -100,14 +100,14 @@ INFO: .....................................
 		</image>
 		
 		<textlist name="gamelist">
-			<pos>0.169 0.25</pos>
-			<size>0.656 0.5</size>
+			<pos>0.161 0.257</pos>
+			<size>0.656 0.64</size>
 			<alignment>center</alignment>
 			<horizontalMargin>0.007</horizontalMargin>
 			<fontPath>./_arte/SF_Hollywood_Hills.ttf</fontPath>
 			<fontSize>0.058</fontSize>
 			<selectorColor>00000080</selectorColor>
-			<selectedColor>ecb731</selectedColor>
+			<selectedColor>b1a24a</selectedColor>
 			<primaryColor>f0f0f0</primaryColor>
 			<secondaryColor>c0c0c0</secondaryColor>
 			<forceUppercase>0</forceUppercase>
@@ -116,9 +116,10 @@ INFO: .....................................
 		</textlist>
 		
 		<image name="logo">
-			<pos>0.865 0.127</pos>
-			<maxSize>0.17 0.154</maxSize>
-			<size>0.168 0.150</size>
+			<pos>0.4 0.065</pos>
+			<maxSize>0.2 0.16</maxSize>
+			<size>0.19 0.158</size>
+			<origin>0 0</origin>
 		</image>
 
 	</view>
@@ -327,15 +328,15 @@ INFO: .....................................
 		</image>
 
 		<helpsystem name="help">
-			<pos>0.03 0.935</pos>
+			<pos>0.03 0.952</pos>
 			<textColor>ecb731</textColor>
 			<iconColor>ffffffd0</iconColor>
 			<fontPath>./_arte/SF_Hollywood_Hills.ttf</fontPath>
-			<fontSize>0.0418</fontSize>
+			<fontSize>0.0458</fontSize>
 		</helpsystem>
 		
 		<image name="logo">
-			<pos>0.79 0.15</pos>
+			<pos>0.4 0.065</pos>
 			<maxSize>0.2 0.16</maxSize>
 			<size>0.19 0.158</size>
 			<origin>0 0</origin>
